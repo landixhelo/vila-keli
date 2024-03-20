@@ -1,0 +1,468 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #AB9657;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.cormorant {
+    font-family: "Cormorant Upright", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .koho {
+    font-family: "KoHo", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .allerta {
+    font-family: "Allerta Stencil", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+.home-bck{
+    background: url('img/207613383.jpg') rgba(0, 0, 0, 0.40);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.home-dsc {
+    background-color: #1d1d1d;
+    height: 100vh;
+}
+
+.home-cont {
+  margin-top: 100px;
+    margin-left: -200px;
+    padding: 50px;
+    height: 30%;
+}
+
+.home-cont h2 {
+    color: white;
+}
+
+.home-cont h1 {
+    color: white;
+}
+
+.border-left {
+  position: relative;
+  padding-left: 20px;
+}
+
+.border-left::after {
+ content: "";
+ position: absolute;
+ top: 20px;
+ left: 0px;
+ height: 90%;
+ width: 20px;
+ background-color: #AB9657;
+}
+
+
+/* facilities */
+
+.faci {
+    background-color: white;
+    padding: 30px;
+}
+
+.degre {
+    border: 2px solid #161616;
+    background-color: #161616;
+    height: 1px;
+    width: 40px;
+    position: relative;
+    left: 100px;
+    transform: rotate(90deg);
+    margin: 30px 0;
+}
+
+.pos {
+    position: relative;
+    top: -200px;
+    left: -100px;
+    padding: 10px;
+    background-color: #161616;
+}
+
+
+.rooms-cards h2 {
+    position: relative;
+    top: -70px;
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+}
+
+.show-button {
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+    color: black;
+    opacity: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+
+.rooms-cards:hover .show-button {
+    transition: 1s ease-in-out;
+    opacity: 1;
+    top: -70px;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+/* testimonials */
+.test-img {
+    background: url('img/266233259.jpg') rgba(0, 0, 0, 0.40);
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+/* hr animation */
+hr {
+    width: 0;
+    border: none;
+    border-top: 5px solid white;
+    transition: width 0.5s;
+    cursor: pointer;
+}
+
+.hoverable:hover + hr {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* owl carousel */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.testi-desc {
+   margin-top: 150px;
+    padding: 30px;
+}
+
+.card-footer .stars i {
+    color: #d2b892;
+}
+
+  /* navfooter */
+  .nav-footer ul {
+    padding: 20px;
+  }
+  ul li {
+    color: #AB9657;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .nav-footer a:hover {
+    color: #AB9657;
+    transition: 0.5s ease;
+  }
+
+  .contact-info {
+    background-color: #272727;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .contact-info h2 {
+    font-size: 30px;
+  }
+
+  .contact-in h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .contact-in i {
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  .contact-in a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  .contact-in h2 {
+    color: grey;
+  }
+
+
+  /* about.html */
+  #about-about {
+    background: url('img/266233797.jpg') rgba(0, 0, 0, 0.40);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+
+  .about-ds h1 {
+    color: #AB9657; 
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .about-ds h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+  }
+
+  /* rooms.html */
+  #rooms-about {
+    background: url('img/266233259.jpg') rgba(0, 0, 0, 0.40);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+
+  .rooms-ds h1 {
+    color: #AB9657;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .rooms-ds h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+  }
+
+  /* gallery.html */
+  #gallery-about {
+    background: url('img/177064921.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .gallery-ds h1 {
+    color: #AB9657;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .gallery-ds h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+  }
+
+  /* contact.html */
+  #contact-about {
+    background: url('img/cont.jpg')rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-ds h1 {
+    color: #AB9657;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .contact-ds h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  /* contact.html */
+
+  .kontakt-inf {
+    margin: 20px 0;
+  }
+
+  .kon-dsc a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  .kon-dsc h2 {
+    font-size: 22px;
+    color: grey;
+  }
+  .kon-dsc p {
+    font-size: 20px;
+  }
+  .kon-icon i {
+    padding: 30px;
+    color: #161616;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .kon-icon i:hover {
+    background-color: #AB9657;
+    color: white;
+    transition: 1s ease;
+    cursor: pointer;
+  }
+   /* media query */
+
+   @media (max-width:767px) {
+    .testi-desc {
+      margin: 50px 0;
+    }
+
+  .home-dsc {
+      display: none;
+  }
+
+  .home-cont {
+    margin-left: 50px!important;
+
+  }
+}
+
+
+  @media (max-width:991px) {
+
+    .testi-desc {
+      margin-top: 10px;
+    }
+
+    .home-cont {
+      margin-left: 100px;
+      top: 10px;
+      height: 300px!important;
+    }
+
+  }
+
+  @media (max-width:1100px) {
+    .home-cont {
+      margin-left: 100px;
+    }
+
+    .testi-desc {
+      margin-top: 10px;
+     
+    }
+  }
+  @media (max-width:1200px) {
+    .home-cont {
+        margin-left: -100px;
+        width: 60%;
+        height: 250px;
+        left: -250px;
+    }
+
+    .testi-desc {
+        margin-top: 100px;
+        
+        width: 100%;
+    }
+    
+  }
+
+  @media (max-width:800px) {
+     .testi-desc {
+      margin-top: 20px;
+    } 
+  }
+
+  /* annimation */
+
+.fadeinleft {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 1s ease-out;
+}
+
+.fadeinright {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1s ease-out;
+}
+
+.fadeindown {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 1.2s ease-out;
+}
+
+.fadeinup {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.2s ease-out;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: all 1.3s ease-in;
+}
+
+.active-left,
+.active,
+.active-right,
+.active-down,
+.active-up {
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+}
+
+.fadein {
+  opacity: 0;
+}

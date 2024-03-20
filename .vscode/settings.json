@@ -1,0 +1,8 @@
+{
+    "editor.defaultFoldingRangeProvider": null,
+    "editor.defaultColorDecorators": false,
+    "editor.defaultFormatter": "formulahendry.auto-close-tag",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
